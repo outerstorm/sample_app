@@ -8,6 +8,9 @@ gem 'rails', '3.2.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem "autotest-rails"
+  gem "autotest-growl"
+  gem "autotest-fsevent"
 end
 
 # Gems used only for assets and not required
